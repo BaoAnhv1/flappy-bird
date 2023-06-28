@@ -21,7 +21,8 @@ public class BackGroundMove : MonoBehaviour
         obj.transform.Translate(new Vector3(-1 * Time.deltaTime* moveSpeed, transform.position.y, 0));
         if (Vector3.Distance(oldPosition, obj.transform.position) > moveRange)
         {
-            obj.transform.position = oldPosition; 
+            obj.transform.position = oldPosition;
+		//test git...
         }
     }
 }
